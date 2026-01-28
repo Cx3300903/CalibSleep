@@ -37,5 +37,4 @@ CalibSleep consists of four main components:
 
 ---
 
-## Repository Structure
 
