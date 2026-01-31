@@ -46,3 +46,20 @@ CalibSleep consists of four main components:
 ├── train.py            # Training script (paper-aligned)
 ├── requirements.txt    # Python dependencies
 └── README.md
+
+## Data Preparation
+
+CalibSleep supports training from either raw PSG recordings or preprocessed segments.
+
+### Raw Data Format
+
+Raw data should be organized by subject as follows:
+
+```text
+data/
+├── subject_001/
+│   ├── eeg.edf
+│   ├── eog.edf
+│   └── label.xml
+├── subject_002/
+│   └── ...
