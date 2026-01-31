@@ -47,6 +47,7 @@ CalibSleep consists of four main components:
 ├── requirements.txt    # Python dependencies
 └── README.md
 
+---
 ## Data Preparation
 
 CalibSleep supports training from either raw PSG recordings or preprocessed segments.
