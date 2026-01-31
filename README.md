@@ -36,3 +36,13 @@ CalibSleep consists of four main components:
    A lightweight classifier predicts sleep stages while a transition regularization term penalizes physiologically implausible stage transitions.
 
 ---
+
+## Repository Structure
+
+```text
+.
+├── CalibSleep.py        # Model definition (encoders, CMC, rule-aware classifier)
+├── DataPreprocess.py   # Data preprocessing and dataset construction
+├── train.py            # Training script (paper-aligned)
+├── requirements.txt    # Python dependencies
+└── README.md
