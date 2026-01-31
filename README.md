@@ -20,7 +20,8 @@ CalibSleep addresses these challenges by:
 ---
 
 ## Model Architecture
-
+![CalibSleep Model Architecture](Model.png)
+*Figure 1: The overall architecture of the CalibSleep framework.*
 CalibSleep consists of four main components:
 
 1. **Time-Domain Encoder**  
