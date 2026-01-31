@@ -38,6 +38,7 @@ CalibSleep consists of four main components:
 ---
 
 ## Repository Structure
+```text
 .
 ├── CalibSleep.py        # Model definition (encoders, CMC, rule-aware classifier)
 ├── DataPreprocess.py   # Data preprocessing and dataset construction
@@ -45,18 +46,3 @@ CalibSleep consists of four main components:
 ├── requirements.txt    # Python dependencies
 └── README.md
 
----
-## Data Preparation
-
-CalibSleep supports training from either raw PSG recordings or preprocessed segments.
-
-### Raw Data Format
-
-Raw data should be organized by subject as follows:
-data/
-├── subject_001/
-│   ├── eeg.edf
-│   ├── eog.edf
-│   └── label.xml
-├── subject_002/
-│   └── ...
